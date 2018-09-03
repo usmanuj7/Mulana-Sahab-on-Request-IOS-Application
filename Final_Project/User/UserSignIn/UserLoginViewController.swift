@@ -10,7 +10,7 @@ import UIKit
 var abc = 0
 
 import Alamofire
-class ViewController: UIViewController {
+class UserLoginViewController: UIViewController {
 
     @IBOutlet weak var Txt_Password: UITextField!
     @IBOutlet weak var Txt_Ph_Number: UITextField!
@@ -129,4 +129,5 @@ class User_Class{
         
     }
 }
+
 

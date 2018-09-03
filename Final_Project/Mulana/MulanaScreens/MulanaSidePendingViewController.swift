@@ -11,7 +11,7 @@ import Alamofire
 var Mulana_Request = [Mulana_Request_Details]()
 let Map_Data = Mulana_Request_Details()
 
-class REqTVViewController: UIViewController ,UITableViewDataSource,UITableViewDelegate {
+class MulanaSidePendingViewController: UIViewController ,UITableViewDataSource,UITableViewDelegate {
 
     @IBOutlet weak var tv: UITableView!
     var Ref_Table_Id = ""
@@ -43,7 +43,7 @@ class REqTVViewController: UIViewController ,UITableViewDataSource,UITableViewDe
         return Mulana_Request.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! ReqTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! MulanaSidePendingTableViewCell
         cell.Name.text = Mulana_Request[indexPath.row].R_Name
         cell.Time.text = Mulana_Request[indexPath.row].R_Time_From + "  " + Mulana_Request[indexPath.row].R_Time_To
         cell.servies.text = Mulana_Request[indexPath.row].R_Service

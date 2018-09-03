@@ -20,7 +20,7 @@ var S_Time_To = ""
 var S_Time_From = ""
 var S_Details = ""
 
-class Search_ViewController: UIViewController {
+class UserMainSearchViewController: UIViewController {
 
 
     @IBOutlet weak var Date_Time_Picker_1: UIDatePicker!

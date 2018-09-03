@@ -1,20 +1,18 @@
 //
-//  MulanaLocationViewController.swift
+//  UserLocationViewController.swift
 //  Final_Project
 //
-//  Created by mb on 22/06/2018.
+//  Created by mb on 06/06/2018.
 //  Copyright © 2018 mb. All rights reserved.
 //
 
 import UIKit
 import GoogleMaps
 
-class MulanaLocationViewController: UIViewController, GMSMapViewDelegate, CLLocationManagerDelegate  {
-
+class UserSignupLocationViewController: UIViewController, GMSMapViewDelegate, CLLocationManagerDelegate  {
     
     @IBOutlet weak var MapView: GMSMapView!
-    
-    
+
     // var for map
     var locationManager = CLLocationManager()
     var lat = CLLocationDegrees()
@@ -23,10 +21,13 @@ class MulanaLocationViewController: UIViewController, GMSMapViewDelegate, CLLoca
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        set_map_things()
 
         // Do any additional setup after loading the view.
+         set_map_things()
+        
+    }
+    override func viewWillAppear(_ animated: Bool) {
+     
     }
 
     override func didReceiveMemoryWarning() {
@@ -34,6 +35,16 @@ class MulanaLocationViewController: UIViewController, GMSMapViewDelegate, CLLoca
         // Dispose of any resources that can be recreated.
     }
     
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
+    */
     
     func set_map_things() {
         
@@ -96,31 +107,31 @@ class MulanaLocationViewController: UIViewController, GMSMapViewDelegate, CLLoca
     
     func mapView(_ mapView: GMSMapView, didTapAt coordinate: CLLocationCoordinate2D) {
         
-        mapView.clear()
+            mapView.clear()
+            print("Lat: \(coordinate.latitude) & Long: \(coordinate.longitude)")
+            let position = CLLocationCoordinate2D(latitude: coordinate.latitude, longitude: coordinate.longitude)
+            let marker = GMSMarker(position: position)
+            marker.title = "abc"
+            marker.map = MapView
+            marker.icon = GMSMarker.markerImage(with: UIColor.red)
+            _lat = coordinate.latitude
+            _long = coordinate.longitude
         print("Lat: \(coordinate.latitude) & Long: \(coordinate.longitude)")
-        let position = CLLocationCoordinate2D(latitude: coordinate.latitude, longitude: coordinate.longitude)
-        let marker = GMSMarker(position: position)
-        marker.title = "abc"
-        marker.map = MapView
-        marker.icon = GMSMarker.markerImage(with: UIColor.red)
-        Mulana_lat = coordinate.latitude
-        Mulana_long = coordinate.longitude
-        print("Lat: \(coordinate.latitude) & Long: \(coordinate.longitude)")
-        let geocoder = GMSGeocoder()
+            let geocoder = GMSGeocoder()
         
-        geocoder.reverseGeocodeCoordinate(coordinate) { response, error in
-            guard let address = response?.firstResult(), let lines = address.lines else {
-                return
+            geocoder.reverseGeocodeCoordinate(coordinate) { response, error in
+                guard let address = response?.firstResult(), let lines = address.lines else {
+                    return
+                }
+                let addressLabel = lines.joined(separator: ",")
+                print(addressLabel)
+                _Addres = addressLabel
             }
-            let addressLabel = lines.joined(separator: ",")
-            print(addressLabel)
-            Mulana_Addres = addressLabel
-        }
-        
+      
         
     }
     func get_location_Address(coord:CLLocationCoordinate2D) {
-        
+       
     }
     func user_loc_Draw_pins() {
         //        MapView.clear()
@@ -137,14 +148,28 @@ class MulanaLocationViewController: UIViewController, GMSMapViewDelegate, CLLoca
         MapView.animate(with: update)
     }
 
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    
+    
+
+
 
 }
+
+
+
+
+class userDetails{
+    
+    var userId = 0
+    var id = 0
+    var title = ""
+    var  body = ""
+    init(){
+        userId = 0
+        id = 0
+            title = ""
+        body = ""
+    }
+}
+

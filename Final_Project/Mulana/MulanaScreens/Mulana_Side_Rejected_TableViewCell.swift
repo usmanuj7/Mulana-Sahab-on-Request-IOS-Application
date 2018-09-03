@@ -1,19 +1,20 @@
 //
-//  ReqTableViewCell.swift
+//  Mulana_Rejected_TableViewCell.swift
 //  Final_Project
 //
-//  Created by mb on 07/06/2018.
+//  Created by mb on 01/07/2018.
 //  Copyright © 2018 mb. All rights reserved.
 //
 
 import UIKit
 
-class ReqTableViewCell: UITableViewCell {
-
-    @IBOutlet weak var Btn_Direction: UIButton!
-    @IBOutlet weak var Time: UILabel!
-    @IBOutlet weak var Name: UILabel!
-    @IBOutlet weak var servies: UILabel!
+class Mulana_Side_Rejected_TableViewCell: UITableViewCell {
+    
+    @IBOutlet weak var Lbl_Name: UILabel!
+    
+    @IBOutlet weak var Lbl_Service: UILabel!
+    
+    @IBOutlet weak var Lbl_Time: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

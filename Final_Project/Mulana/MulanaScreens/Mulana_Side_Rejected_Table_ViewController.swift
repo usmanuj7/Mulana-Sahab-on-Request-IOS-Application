@@ -11,7 +11,7 @@ import Alamofire
 import GoogleMaps
 var Mulana_Reject_Request = [Mulana_Request_Details]()
 
-class Mulana_Rejected_Table_ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class Mulana_Side_Rejected_Table_ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     
     @IBOutlet weak var TV: UITableView!
@@ -21,7 +21,7 @@ class Mulana_Rejected_Table_ViewController: UIViewController, UITableViewDelegat
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! Mulana_Rejected_TableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! Mulana_Side_Rejected_TableViewCell
         
         cell.Lbl_Name.text = Mulana_Reject_Request[indexPath.row].R_Name
         cell.Lbl_Service.text = Mulana_Reject_Request[indexPath.row].R_Service

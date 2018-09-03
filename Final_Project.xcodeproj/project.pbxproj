@@ -10,34 +10,32 @@
 		27EF7020314026AF2EDC60E2 /* Pods_Final_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB7D68C3229873F4F58E321 /* Pods_Final_Project.framework */; };
 		2C06FEDF20DEEC9400134DA8 /* Mulana_Sahab_Signup_2_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C06FEDE20DEEC9400134DA8 /* Mulana_Sahab_Signup_2_ViewController.swift */; };
 		2C16579E20E908F200E0150A /* Feedback_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C16579D20E908F200E0150A /* Feedback_ViewController.swift */; };
-		2C269F2B20DD38FC00216B9F /* MulanaLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C269F2A20DD38FC00216B9F /* MulanaLocationViewController.swift */; };
+		2C269F2B20DD38FC00216B9F /* MulanaSignupLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C269F2A20DD38FC00216B9F /* MulanaSignupLocationViewController.swift */; };
 		2C2B1AFD20E2D16F00BD179F /* Mulana_Login_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2B1AFC20E2D16F00BD179F /* Mulana_Login_ViewController.swift */; };
-		2C46373120C728C500C8011C /* TemppTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C46373020C728C500C8011C /* TemppTableViewCell.swift */; };
+		2C46373120C728C500C8011C /* UserSearchMulanaListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C46373020C728C500C8011C /* UserSearchMulanaListTableViewCell.swift */; };
 		2C46373320C728D900C8011C /* TBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C46373220C728D900C8011C /* TBViewController.swift */; };
-		2C5DE8FB20E838550052051A /* Mulana_Rejected_Table_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5DE8FA20E838550052051A /* Mulana_Rejected_Table_ViewController.swift */; };
-		2C5DE8FD20E838760052051A /* Mulana_Rejected_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5DE8FC20E838760052051A /* Mulana_Rejected_TableViewCell.swift */; };
+		2C5DE8FB20E838550052051A /* Mulana_Side_Rejected_Table_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5DE8FA20E838550052051A /* Mulana_Side_Rejected_Table_ViewController.swift */; };
+		2C5DE8FD20E838760052051A /* Mulana_Side_Rejected_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5DE8FC20E838760052051A /* Mulana_Side_Rejected_TableViewCell.swift */; };
 		2C6A992520E8F2E0008D450A /* User_AcceptedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6A992420E8F2E0008D450A /* User_AcceptedViewController.swift */; };
 		2C6A992720E8F2FA008D450A /* User_AcceptedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6A992620E8F2FA008D450A /* User_AcceptedTableViewCell.swift */; };
-		2CAB273C20C7250A008E08A5 /* TempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB273B20C7250A008E08A5 /* TempViewController.swift */; };
+		2CAB273C20C7250A008E08A5 /* UserSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB273B20C7250A008E08A5 /* UserSignupViewController.swift */; };
 		2CBB44DD20C70F2D00787E80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBB44DC20C70F2D00787E80 /* AppDelegate.swift */; };
-		2CBB44DF20C70F2D00787E80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBB44DE20C70F2D00787E80 /* ViewController.swift */; };
+		2CBB44DF20C70F2D00787E80 /* UserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBB44DE20C70F2D00787E80 /* UserLoginViewController.swift */; };
 		2CBB44E220C70F2D00787E80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CBB44E020C70F2D00787E80 /* Main.storyboard */; };
 		2CBB44E420C70F2D00787E80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CBB44E320C70F2D00787E80 /* Assets.xcassets */; };
 		2CBB44E720C70F2D00787E80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CBB44E520C70F2D00787E80 /* LaunchScreen.storyboard */; };
 		2CBB44F220C70F2D00787E80 /* Final_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBB44F120C70F2D00787E80 /* Final_ProjectTests.swift */; };
 		2CBB44FD20C70F2D00787E80 /* Final_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBB44FC20C70F2D00787E80 /* Final_ProjectUITests.swift */; };
-		2CC8670420C8075C004A4C08 /* Search_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC8670320C8075C004A4C08 /* Search_ViewController.swift */; };
+		2CC8670420C8075C004A4C08 /* UserMainSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC8670320C8075C004A4C08 /* UserMainSearchViewController.swift */; };
 		2CC9F7CF20E6B11100CF3A59 /* User_List_LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC9F7CE20E6B11100CF3A59 /* User_List_LocationViewController.swift */; };
 		2CCA3CB120DABAF800905101 /* Mulana_Signup_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA3CB020DABAF800905101 /* Mulana_Signup_ViewController.swift */; };
 		2CD54A1D20DE77CD006F6B57 /* MulanaTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD54A1C20DE77CD006F6B57 /* MulanaTimeViewController.swift */; };
-		2CE0777720C86F3F000FFA60 /* ReqTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE0777620C86F3F000FFA60 /* ReqTableViewCell.swift */; };
-		2CE0777920C86F50000FFA60 /* REqTVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE0777820C86F50000FFA60 /* REqTVViewController.swift */; };
+		2CE0777720C86F3F000FFA60 /* MulanaSidePendingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE0777620C86F3F000FFA60 /* MulanaSidePendingTableViewCell.swift */; };
+		2CE0777920C86F50000FFA60 /* MulanaSidePendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE0777820C86F50000FFA60 /* MulanaSidePendingViewController.swift */; };
 		2CF5FDB320DFB19900E2C5BF /* Search_Location_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF5FDB220DFB19900E2C5BF /* Search_Location_ViewController.swift */; };
-		2CFE3F0220C7F75A00B335A2 /* UserLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE3F0120C7F75A00B335A2 /* UserLocationViewController.swift */; };
+		2CFE3F0220C7F75A00B335A2 /* UserSignupLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE3F0120C7F75A00B335A2 /* UserSignupLocationViewController.swift */; };
 		368A489C17707E62FCEA1B2C /* Pods_Final_ProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981F14DA67BD896545FF8C38 /* Pods_Final_ProjectUITests.framework */; };
 		9837B7E210656F2E9C7DAEDD /* Pods_Final_ProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CD622798779A8897ECF121 /* Pods_Final_ProjectTests.framework */; };
-		E4D63272210C44F80048F22D /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D63271210C44F80048F22D /* TestTableViewCell.swift */; };
-		E4D63274210C45170048F22D /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D63273210C45170048F22D /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,18 +60,18 @@
 		1598ED3C6F2176300402EDDE /* Pods-Final_Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final_Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-Final_Project/Pods-Final_Project.release.xcconfig"; sourceTree = "<group>"; };
 		2C06FEDE20DEEC9400134DA8 /* Mulana_Sahab_Signup_2_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mulana_Sahab_Signup_2_ViewController.swift; sourceTree = "<group>"; };
 		2C16579D20E908F200E0150A /* Feedback_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feedback_ViewController.swift; sourceTree = "<group>"; };
-		2C269F2A20DD38FC00216B9F /* MulanaLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulanaLocationViewController.swift; sourceTree = "<group>"; };
+		2C269F2A20DD38FC00216B9F /* MulanaSignupLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulanaSignupLocationViewController.swift; sourceTree = "<group>"; };
 		2C2B1AFC20E2D16F00BD179F /* Mulana_Login_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mulana_Login_ViewController.swift; sourceTree = "<group>"; };
-		2C46373020C728C500C8011C /* TemppTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemppTableViewCell.swift; sourceTree = "<group>"; };
+		2C46373020C728C500C8011C /* UserSearchMulanaListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchMulanaListTableViewCell.swift; sourceTree = "<group>"; };
 		2C46373220C728D900C8011C /* TBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBViewController.swift; sourceTree = "<group>"; };
-		2C5DE8FA20E838550052051A /* Mulana_Rejected_Table_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mulana_Rejected_Table_ViewController.swift; sourceTree = "<group>"; };
-		2C5DE8FC20E838760052051A /* Mulana_Rejected_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mulana_Rejected_TableViewCell.swift; sourceTree = "<group>"; };
+		2C5DE8FA20E838550052051A /* Mulana_Side_Rejected_Table_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mulana_Side_Rejected_Table_ViewController.swift; sourceTree = "<group>"; };
+		2C5DE8FC20E838760052051A /* Mulana_Side_Rejected_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mulana_Side_Rejected_TableViewCell.swift; sourceTree = "<group>"; };
 		2C6A992420E8F2E0008D450A /* User_AcceptedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User_AcceptedViewController.swift; sourceTree = "<group>"; };
 		2C6A992620E8F2FA008D450A /* User_AcceptedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User_AcceptedTableViewCell.swift; sourceTree = "<group>"; };
-		2CAB273B20C7250A008E08A5 /* TempViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempViewController.swift; sourceTree = "<group>"; };
+		2CAB273B20C7250A008E08A5 /* UserSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSignupViewController.swift; sourceTree = "<group>"; };
 		2CBB44D920C70F2D00787E80 /* Final_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Final_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBB44DC20C70F2D00787E80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2CBB44DE20C70F2D00787E80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CBB44DE20C70F2D00787E80 /* UserLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginViewController.swift; sourceTree = "<group>"; };
 		2CBB44E120C70F2D00787E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CBB44E320C70F2D00787E80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CBB44E620C70F2D00787E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -84,21 +82,19 @@
 		2CBB44F820C70F2D00787E80 /* Final_ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Final_ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBB44FC20C70F2D00787E80 /* Final_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_ProjectUITests.swift; sourceTree = "<group>"; };
 		2CBB44FE20C70F2D00787E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2CC8670320C8075C004A4C08 /* Search_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search_ViewController.swift; sourceTree = "<group>"; };
+		2CC8670320C8075C004A4C08 /* UserMainSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMainSearchViewController.swift; sourceTree = "<group>"; };
 		2CC9F7CE20E6B11100CF3A59 /* User_List_LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User_List_LocationViewController.swift; sourceTree = "<group>"; };
 		2CCA3CB020DABAF800905101 /* Mulana_Signup_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mulana_Signup_ViewController.swift; sourceTree = "<group>"; };
 		2CD54A1C20DE77CD006F6B57 /* MulanaTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulanaTimeViewController.swift; sourceTree = "<group>"; };
-		2CE0777620C86F3F000FFA60 /* ReqTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReqTableViewCell.swift; sourceTree = "<group>"; };
-		2CE0777820C86F50000FFA60 /* REqTVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REqTVViewController.swift; sourceTree = "<group>"; };
+		2CE0777620C86F3F000FFA60 /* MulanaSidePendingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulanaSidePendingTableViewCell.swift; sourceTree = "<group>"; };
+		2CE0777820C86F50000FFA60 /* MulanaSidePendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulanaSidePendingViewController.swift; sourceTree = "<group>"; };
 		2CF5FDB220DFB19900E2C5BF /* Search_Location_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search_Location_ViewController.swift; sourceTree = "<group>"; };
-		2CFE3F0120C7F75A00B335A2 /* UserLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationViewController.swift; sourceTree = "<group>"; };
+		2CFE3F0120C7F75A00B335A2 /* UserSignupLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSignupLocationViewController.swift; sourceTree = "<group>"; };
 		5A75F12BE0DEDA91DED49A7D /* Pods-Final_ProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final_ProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Final_ProjectUITests/Pods-Final_ProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5D7267BACDC6CBDA9E21FCF9 /* Pods-Final_Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final_Project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Final_Project/Pods-Final_Project.debug.xcconfig"; sourceTree = "<group>"; };
 		8FB3C9DA123FF5A920192C4C /* Pods-Final_ProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final_ProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Final_ProjectTests/Pods-Final_ProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		981F14DA67BD896545FF8C38 /* Pods_Final_ProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Final_ProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB7D68C3229873F4F58E321 /* Pods_Final_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Final_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4D63271210C44F80048F22D /* TestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
-		E4D63273210C45170048F22D /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		F21634D01D73750DB8A0A4A9 /* Pods-Final_ProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final_ProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Final_ProjectTests/Pods-Final_ProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		F5CD622798779A8897ECF121 /* Pods_Final_ProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Final_ProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -156,33 +152,13 @@
 		2CBB44DB20C70F2D00787E80 /* Final_Project */ = {
 			isa = PBXGroup;
 			children = (
+				E458531F213D4D420038B948 /* Mulana */,
+				E458531B213D4ADA0038B948 /* User */,
 				2CBB44DC20C70F2D00787E80 /* AppDelegate.swift */,
-				2CBB44DE20C70F2D00787E80 /* ViewController.swift */,
 				2CBB44E020C70F2D00787E80 /* Main.storyboard */,
-				E4D63271210C44F80048F22D /* TestTableViewCell.swift */,
-				E4D63273210C45170048F22D /* TestViewController.swift */,
-				2C6A992420E8F2E0008D450A /* User_AcceptedViewController.swift */,
-				2C6A992620E8F2FA008D450A /* User_AcceptedTableViewCell.swift */,
-				2C16579D20E908F200E0150A /* Feedback_ViewController.swift */,
-				2C5DE8FA20E838550052051A /* Mulana_Rejected_Table_ViewController.swift */,
-				2C5DE8FC20E838760052051A /* Mulana_Rejected_TableViewCell.swift */,
-				2C2B1AFC20E2D16F00BD179F /* Mulana_Login_ViewController.swift */,
-				2CF5FDB220DFB19900E2C5BF /* Search_Location_ViewController.swift */,
-				2C06FEDE20DEEC9400134DA8 /* Mulana_Sahab_Signup_2_ViewController.swift */,
-				2CD54A1C20DE77CD006F6B57 /* MulanaTimeViewController.swift */,
-				2C269F2A20DD38FC00216B9F /* MulanaLocationViewController.swift */,
-				2CCA3CB020DABAF800905101 /* Mulana_Signup_ViewController.swift */,
-				2CE0777620C86F3F000FFA60 /* ReqTableViewCell.swift */,
-				2CE0777820C86F50000FFA60 /* REqTVViewController.swift */,
-				2CC9F7CE20E6B11100CF3A59 /* User_List_LocationViewController.swift */,
-				2CC8670320C8075C004A4C08 /* Search_ViewController.swift */,
-				2C46373020C728C500C8011C /* TemppTableViewCell.swift */,
-				2C46373220C728D900C8011C /* TBViewController.swift */,
-				2CAB273B20C7250A008E08A5 /* TempViewController.swift */,
 				2CBB44E320C70F2D00787E80 /* Assets.xcassets */,
 				2CBB44E520C70F2D00787E80 /* LaunchScreen.storyboard */,
 				2CBB44E820C70F2D00787E80 /* Info.plist */,
-				2CFE3F0120C7F75A00B335A2 /* UserLocationViewController.swift */,
 			);
 			path = Final_Project;
 			sourceTree = "<group>";
@@ -226,6 +202,88 @@
 				5A75F12BE0DEDA91DED49A7D /* Pods-Final_ProjectUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E458531B213D4ADA0038B948 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				E458531E213D4CA90038B948 /* UserScreens */,
+				E458531D213D4B220038B948 /* UserSignIn */,
+				E458531C213D4B160038B948 /* UserSignUp */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		E458531C213D4B160038B948 /* UserSignUp */ = {
+			isa = PBXGroup;
+			children = (
+				2CFE3F0120C7F75A00B335A2 /* UserSignupLocationViewController.swift */,
+				2CAB273B20C7250A008E08A5 /* UserSignupViewController.swift */,
+			);
+			path = UserSignUp;
+			sourceTree = "<group>";
+		};
+		E458531D213D4B220038B948 /* UserSignIn */ = {
+			isa = PBXGroup;
+			children = (
+				2CBB44DE20C70F2D00787E80 /* UserLoginViewController.swift */,
+			);
+			path = UserSignIn;
+			sourceTree = "<group>";
+		};
+		E458531E213D4CA90038B948 /* UserScreens */ = {
+			isa = PBXGroup;
+			children = (
+				2C16579D20E908F200E0150A /* Feedback_ViewController.swift */,
+				2C46373220C728D900C8011C /* TBViewController.swift */,
+				2CC8670320C8075C004A4C08 /* UserMainSearchViewController.swift */,
+				2C46373020C728C500C8011C /* UserSearchMulanaListTableViewCell.swift */,
+				2CF5FDB220DFB19900E2C5BF /* Search_Location_ViewController.swift */,
+				2C6A992420E8F2E0008D450A /* User_AcceptedViewController.swift */,
+				2C6A992620E8F2FA008D450A /* User_AcceptedTableViewCell.swift */,
+			);
+			path = UserScreens;
+			sourceTree = "<group>";
+		};
+		E458531F213D4D420038B948 /* Mulana */ = {
+			isa = PBXGroup;
+			children = (
+				E4585322213D4D5B0038B948 /* MulanaScreens */,
+				E4585321213D4D520038B948 /* MulanaSignup */,
+				E4585320213D4D490038B948 /* MulanaLogin */,
+			);
+			path = Mulana;
+			sourceTree = "<group>";
+		};
+		E4585320213D4D490038B948 /* MulanaLogin */ = {
+			isa = PBXGroup;
+			children = (
+				2C2B1AFC20E2D16F00BD179F /* Mulana_Login_ViewController.swift */,
+			);
+			path = MulanaLogin;
+			sourceTree = "<group>";
+		};
+		E4585321213D4D520038B948 /* MulanaSignup */ = {
+			isa = PBXGroup;
+			children = (
+				2C269F2A20DD38FC00216B9F /* MulanaSignupLocationViewController.swift */,
+				2CD54A1C20DE77CD006F6B57 /* MulanaTimeViewController.swift */,
+				2C06FEDE20DEEC9400134DA8 /* Mulana_Sahab_Signup_2_ViewController.swift */,
+				2CCA3CB020DABAF800905101 /* Mulana_Signup_ViewController.swift */,
+			);
+			path = MulanaSignup;
+			sourceTree = "<group>";
+		};
+		E4585322213D4D5B0038B948 /* MulanaScreens */ = {
+			isa = PBXGroup;
+			children = (
+				2CC9F7CE20E6B11100CF3A59 /* User_List_LocationViewController.swift */,
+				2C5DE8FA20E838550052051A /* Mulana_Side_Rejected_Table_ViewController.swift */,
+				2C5DE8FC20E838760052051A /* Mulana_Side_Rejected_TableViewCell.swift */,
+				2CE0777620C86F3F000FFA60 /* MulanaSidePendingTableViewCell.swift */,
+				2CE0777820C86F50000FFA60 /* MulanaSidePendingViewController.swift */,
+			);
+			path = MulanaScreens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -466,27 +524,25 @@
 			files = (
 				2C6A992520E8F2E0008D450A /* User_AcceptedViewController.swift in Sources */,
 				2C46373320C728D900C8011C /* TBViewController.swift in Sources */,
-				E4D63274210C45170048F22D /* TestViewController.swift in Sources */,
-				2C5DE8FB20E838550052051A /* Mulana_Rejected_Table_ViewController.swift in Sources */,
-				2C46373120C728C500C8011C /* TemppTableViewCell.swift in Sources */,
+				2C5DE8FB20E838550052051A /* Mulana_Side_Rejected_Table_ViewController.swift in Sources */,
+				2C46373120C728C500C8011C /* UserSearchMulanaListTableViewCell.swift in Sources */,
 				2C16579E20E908F200E0150A /* Feedback_ViewController.swift in Sources */,
 				2CC9F7CF20E6B11100CF3A59 /* User_List_LocationViewController.swift in Sources */,
-				2CC8670420C8075C004A4C08 /* Search_ViewController.swift in Sources */,
+				2CC8670420C8075C004A4C08 /* UserMainSearchViewController.swift in Sources */,
 				2C6A992720E8F2FA008D450A /* User_AcceptedTableViewCell.swift in Sources */,
-				2CFE3F0220C7F75A00B335A2 /* UserLocationViewController.swift in Sources */,
+				2CFE3F0220C7F75A00B335A2 /* UserSignupLocationViewController.swift in Sources */,
 				2C2B1AFD20E2D16F00BD179F /* Mulana_Login_ViewController.swift in Sources */,
-				2C269F2B20DD38FC00216B9F /* MulanaLocationViewController.swift in Sources */,
+				2C269F2B20DD38FC00216B9F /* MulanaSignupLocationViewController.swift in Sources */,
 				2CF5FDB320DFB19900E2C5BF /* Search_Location_ViewController.swift in Sources */,
-				2CE0777720C86F3F000FFA60 /* ReqTableViewCell.swift in Sources */,
-				2CBB44DF20C70F2D00787E80 /* ViewController.swift in Sources */,
+				2CE0777720C86F3F000FFA60 /* MulanaSidePendingTableViewCell.swift in Sources */,
+				2CBB44DF20C70F2D00787E80 /* UserLoginViewController.swift in Sources */,
 				2CCA3CB120DABAF800905101 /* Mulana_Signup_ViewController.swift in Sources */,
 				2CBB44DD20C70F2D00787E80 /* AppDelegate.swift in Sources */,
 				2CD54A1D20DE77CD006F6B57 /* MulanaTimeViewController.swift in Sources */,
 				2C06FEDF20DEEC9400134DA8 /* Mulana_Sahab_Signup_2_ViewController.swift in Sources */,
-				2CAB273C20C7250A008E08A5 /* TempViewController.swift in Sources */,
-				2CE0777920C86F50000FFA60 /* REqTVViewController.swift in Sources */,
-				2C5DE8FD20E838760052051A /* Mulana_Rejected_TableViewCell.swift in Sources */,
-				E4D63272210C44F80048F22D /* TestTableViewCell.swift in Sources */,
+				2CAB273C20C7250A008E08A5 /* UserSignupViewController.swift in Sources */,
+				2CE0777920C86F50000FFA60 /* MulanaSidePendingViewController.swift in Sources */,
+				2C5DE8FD20E838760052051A /* Mulana_Side_Rejected_TableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

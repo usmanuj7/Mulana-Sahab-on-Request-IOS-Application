@@ -12,7 +12,7 @@ var _lat  = 0.0
 var _long = 0.0
 var _Addres = ""
  let User = User_Class()
-class TempViewController: UIViewController {
+class UserSignupViewController: UIViewController {
 
     @IBOutlet weak var Txt_Name: UITextField!
     @IBOutlet weak var Txt_Ph_Number: UITextField!

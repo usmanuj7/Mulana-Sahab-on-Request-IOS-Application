@@ -9,7 +9,7 @@
 import UIKit
 import Alamofire
 
-class TBViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
+class UserSearchedMulanaListViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
 
   
     var name = ["Ali Hassan","Abdul Qudoos", "Nasir Khan"]
@@ -35,7 +35,7 @@ class TBViewController: UIViewController,UITableViewDataSource,UITableViewDelega
         return List_Mulana.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! TemppTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! UserSearchMulanaListTableViewCell
       //  cell.title.text = name[indexPath.row]
         //cell.km.text = kmm[indexPath.row]
         cell.title.text = List_Mulana[indexPath.row].M_Name

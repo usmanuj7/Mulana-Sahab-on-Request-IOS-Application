@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TemppTableViewCell: UITableViewCell {
+class UserSearchMulanaListTableViewCell: UITableViewCell {
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var km: UILabel!
     @IBOutlet weak var s1: UIImageView!
