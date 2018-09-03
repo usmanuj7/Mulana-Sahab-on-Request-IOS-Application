@@ -7,15 +7,18 @@
 //
 
 import UIKit
+import CoreData
+import GoogleMaps
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+static var url = "https://jsonplaceholder.typicode.com/"
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        GMSServices.provideAPIKey("AIzaSyDQs8Y4nTHi8TWvQnlX7IX3sQZFeb1BxG0")
         return true
     }
 
